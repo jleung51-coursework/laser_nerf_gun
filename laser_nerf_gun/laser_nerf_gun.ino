@@ -38,7 +38,7 @@ void setup() {
 }
 
 void loop() {
-  if(inputGreaterThan(pinAnalogIn, 75)) {
+  if(inputGreaterThan(pinAnalogIn, 200)) {
     digitalWrite(pinLaser, HIGH);
     startPlayback(laserSound, sizeof(laserSound));  // PCM.h
     delay(500);
