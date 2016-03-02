@@ -1,7 +1,7 @@
 /*
  *
  * Authors: Jeffrey Leung, Charles Li
- * Last edited: 2016-02-29
+ * Last edited: 2016-03-02
  *
  * This Arduino sketch activates a laser for a short time and plays a laser
  * sound when a presssure pad is activated.
@@ -30,7 +30,7 @@ bool inputGreaterThan(unsigned int analogPin, unsigned int threshold)
 }
 
 void setup() {
-  pinMode(pinPressure, INPUT);
+  pinMode(pinPressure, OUTPUT);
   pinMode(pinLaser, OUTPUT);
 
   digitalWrite(pinPressure, HIGH);
