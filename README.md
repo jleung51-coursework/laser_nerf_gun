@@ -34,7 +34,7 @@ SKU: SE-IRL104A2B
 [USB Speaker JY-2030 (Speaker extracted)](http://www.made-in-china.com/showroom/electronic99/product-detailSMqnKURVArhF/China-Speaker-JY-2030-.html)
 
 ### Setting up the Circuit
-![Schematic](https://github.com/jleung51/img/schematic.png)
+![Schematic](img/schematic.png)
 
 * The speaker is, by default in the PCM library, set to output on pin 11
 
