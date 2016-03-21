@@ -35,7 +35,8 @@ SKU: SE-IRL104A2B
 
 ### Setting up the Circuit
 ![Schematic](img/schematic.png)
-
 * The speaker is, by default in the PCM library, set to output on pin 11
+
+![Annotated Picture](img/picture_annotated.png)
 
 Verify and upload the code to the Arduino and you're done!
